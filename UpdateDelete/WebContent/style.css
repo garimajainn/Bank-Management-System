@@ -1,0 +1,328 @@
+@charset "ISO-8859-1";
+body {
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 109px;
+    position: relative;
+    background-color: #000;
+}
+
+.fed-choice {
+    color: #ffd300;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bank {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-container .navbar {
+    background-color: #ffd300;
+    border-radius: 0px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* color: #fff; */
+}
+
+.nav-container .navbar ul li a {
+    color: #000;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.main-container {
+    min-height: 85vh;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container .asteric {
+    color: red;
+}
+
+
+form input, #select-state {
+    margin-left: 50px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+form #custSsnId {
+    position: relative;
+    left: 8px;
+}
+form #custName {
+    position: relative;
+    left: 12px;
+}
+form #age {
+    position: relative;
+    left: 89px;
+}
+form #address {
+    position: relative;
+    left: 62px;
+}
+form #select-state {
+    position: relative;
+    left: 81px;
+}
+form #select-city {
+    position: relative;
+    left: 140px;
+}
+
+form .btn {
+    width: 170px;
+    background-color: #000;
+    color: #ffd300;
+    border-radius: 0px;
+}
+
+form .btn:hover {
+    color: #ffd300;
+}
+
+.footer-section {
+    border-top: 5px solid #ffd300;
+}
+
+.footer-section .navbar-footer {
+    background-color: #000;
+    border-radius: 0px;
+}
+
+.footer-section .navbar-footer ul li a {
+    color: #ffd300;
+    font-weight: bold;
+    padding: 15px 180px;
+    font-size: 16px;
+}
+
+table {
+    
+    left: 25%;
+    top: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 8px silver;
+}
+
+table th {
+    text-align: center;
+    background-color: #ffd300;
+}
+
+/* Create Account */
+#custId {
+    position: relative;
+    left: 50px;
+}
+
+#account-type {
+    position: relative;
+    width: 160px;
+    left: 92px;
+}
+
+#depositeAmount {
+    position: relative;
+    left: 19px;
+}
+
+.create-btn {
+    position: relative;
+    left: 190px;
+}
+
+/* Creat Account Footer */
+.footer-section .footer-details {
+    background-color: #000;
+    min-height: 150px;
+    padding: 15px 150px;
+}
+
+.footer-section .footer-details h4 {
+    color: #ffd300;
+}
+
+.footer-section .footer-details span {
+    color: rgb(110, 108, 108);
+}
+
+.refresh-list .refresh-btn {
+    position: relative;
+    left: 45%;
+    background-color: #000;
+    color: #ffd300;
+    border-radius: 0px;
+}
+
+.refresh-list .refresh-btn:hover{
+    /* background-color: #000; */
+    color: #ffd300;
+}
+
+.services-links ul li, .contact-details li {
+    list-style-type: none;
+}
+
+.services-links ul li a, .contact-details li, .contact-details address {
+    color: rgb(110, 108, 108);
+    position: relative;
+    right: 40px;
+}
+
+.contact-details li a {
+    color: rgb(110, 108, 108);
+}
+
+.deposite-money {
+    position: relative;
+    /* left: 500px; */
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    top: 50px;
+}
+
+.deposite-money span {
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.main-container .container-section {
+    width: 30%;
+}
+
+.main-container .container-section .deposite-details, .delete-account, .withdraw-details {
+    margin-top: 50px;
+    position: relative;
+    left: 100px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container .container-section .deposite-details span, .delete-account span, .withdraw-details span {
+    font-weight: bold;
+}
+
+.main-container .container-section .delete-form input {
+    margin-left: 100px;
+    position: relative;
+    left: 100px;
+}
+
+.main-container .deposite-form span, .delete-form, .withdraw-form {
+    font-weight: bold;
+}
+
+.main-container .deposite-form .dept-btn, .delete-form .delt-btn, .withdraw-form .withdraw-btn {
+    position: relative;
+    left: 170px;
+}
+
+.footer-icon {
+    background-color: #000;
+    opacity: .9;
+    padding: 20px;
+}
+
+.footer-icon p {
+    color: #fff;
+}
+
+.footer-icon .fa {
+    padding: 8px;
+    font-size: 3rem;
+}
+
+.login-container {
+    height: 80vh;
+}
+
+.login-container .login-form {
+    position: relative;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    border: 2px solid rgb(110, 108, 108);
+    /* border-radius: 0px; */
+}
+
+.login-container .login-form .login-heading {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(73, 67, 67);
+    color: rgb(212, 199, 199);
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-container .login-form .login-btn {
+    background-color: #fff;
+    border: 2px solid rgb(110, 108, 108);
+    position: relative;
+    left: 180px;
+}
+
+.main-container .container-update-customer, .main-container .container-transfer-money, .main-container .container-account-statement, .main-container .container-account-statement-details {
+    width: 30%;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.main-container .container-update-customer .btn-update, .main-container .container-transfer-money .btn-transfer,  .main-container .container-account-statement .btn-acc-statement, .main-container .container-account-statement-details .btn-acc-statement-details {
+    background-color: #000;
+    color: #ffd300;
+    border-radius: 0px;
+    width: 100px;
+    position: relative;
+    left: 230px;
+}
+
+.account-statement-table {
+    width: 40%;
+    position: relative;
+    left: 35%;
+}
+
+.download-button .btn-pdf-file, .download-button .btn-excel-file {
+    background-color: #000;
+    color: #ffd300;
+    border-radius: 0px;
+    position: relative;
+    left: 45%;
+}
+
+.download-button .btn-excel-file:hover,.download-button .btn-pdf-file:hover {
+    color: #ffd300;
+}
